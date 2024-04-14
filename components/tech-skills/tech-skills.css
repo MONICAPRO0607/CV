@@ -1,0 +1,14 @@
+.techSkills {
+  margin-top: 40px;
+}
+
+.techSkills .tools {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.techSkills .tools .icon {
+height: 50px;
+width: 50px;
+}

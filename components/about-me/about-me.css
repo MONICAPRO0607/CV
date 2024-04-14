@@ -1,0 +1,29 @@
+.presentation {
+  width: 100%;
+}
+
+.presentation .name {
+  font-size: 72px;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+
+.presentation .rol {
+  font-size: 36px;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.presentation .description {
+ width: 77%;
+ margin: 0 auto;
+}
+
+@media screen and (max-width:749px){
+  .presentation .name {
+    font-size: 36px;
+}
+  .presentation .rol {
+    font-size: 30px;
+  }}

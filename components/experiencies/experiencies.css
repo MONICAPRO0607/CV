@@ -1,0 +1,54 @@
+.experiencies {
+  margin-top: 50px;
+}
+.experiencies .experience {
+border-bottom: 1px solid var(--color-border);
+}
+
+.experiencies .experience:not(:last-child) {
+  margin-bottom: 10px;
+  }  
+
+.experiencies .experience .job {
+display: flex;
+justify-content:space-between;
+align-items:baseline;
+}
+
+.experiencies .experience .job .dateJob p{
+margin: 0;
+}
+
+.experiencies .experience .job .dateJob .date {
+font-size: 20px;
+color: var(--color-secondary);
+margin-bottom: 5px;
+}
+
+.experiencies .experience .job .dateJob .company{
+  font-size: 20px;
+  color: var(--color-primary);
+  font-weight: 700;
+  }
+
+.experiencies .experience .job .position {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: right;
+}
+
+.experiencies .experience .description {
+color: var(--color-secondary)
+}
+
+@media screen and (max-width:749px){
+  .experiencies .experience .job .position {
+    font-size: 16px;
+    }
+  .experiencies .experience .job .dateJob .company{
+    font-size: 14px;
+    }
+    .experiencies .experience .job .dateJob .date {
+      font-size: 14px;
+    }
+  }

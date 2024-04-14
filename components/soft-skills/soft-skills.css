@@ -1,0 +1,16 @@
+.softSkills {
+  margin-top: 40px;
+}
+
+.softSkills ul{
+  display:flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  list-style: disc;
+  padding: 0 20px;
+
+}
+
+.softSkills li {
+width: 48%;
+}

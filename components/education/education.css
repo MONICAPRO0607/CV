@@ -1,0 +1,22 @@
+.education {
+  margin-top: 50px;
+}
+
+.educationList .education-li:not(:last-child){
+  border-bottom: 1px solid var(--color-border);
+}
+
+.degreeContainer .degree {
+  font-size: 20px;
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+@media screen and (max-width:749px){
+  .degreeContainer .degree {
+    font-size: 16px;
+  }
+  
+  .education {
+    font-size: 14px;
+    }}

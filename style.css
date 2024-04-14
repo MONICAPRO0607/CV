@@ -1,0 +1,59 @@
+:root {
+  --color-primary: #3d69a6;
+  --color-secondary: #333333;
+  --color-border: #c7c7c7;
+  --title-font-size: 30px;
+  --title-font-weight: 700;
+}
+
+#app {
+  display: flex;
+  gap: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+#app #contact,
+#app #aboutme {
+  padding: 15px;
+}
+
+#app #contact {
+  background-color: #f0f6ff;
+  border-right: 1px solid var(--color-border);
+  box-shadow: 1px 0px 15px #2a4f84;
+  width: 30%;
+}
+#app #aboutme {
+  width: 70%;
+}
+
+h2 {
+  color: var(--color-primary);
+  font-size: var(--title-font-size);
+  font-weight: var(--title-font-weight);
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+}
+
+@media screen and (max-width:749px){
+  #app {
+    flex-direction: column;
+    gap:0;
+  }
+
+  #app #contact,
+  #app #aboutme {
+    width: 100%;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  h2 {
+    text-align: center;
+  }
+  }
+
+
